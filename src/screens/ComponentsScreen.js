@@ -2,18 +2,21 @@ import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 
 const ComponentsScreen = () => {
-  const greeting = <Text> Hello to you! </Text>;
+  const name = 'GiangNV';
   return (
     <View>
-      <Text style={styles.text}>ComponentsScreen</Text>
-      {greeting}
+      <Text style={styles.text}>Getting started with React Native</Text>
+      <Text sytle={styles.subHeader}>My name is {name}</Text>
     </View>
-  )
+  );
 };
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30
+    fontSize: 45
+  },
+  subHeader: {
+    fontSize: 20
   }
 });
 
