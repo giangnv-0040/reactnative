@@ -24,19 +24,26 @@ const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: 'red',
         flex: 4, // do rong cua phan tu con
-        alignSelf: 'center' // vi tri cua phan tu con tron ptu cha
+        alignSelf: 'center', // vi tri cua phan tu con tron ptu cha
+        // position: 'absolute'
     },
     textTwoStyle: {
         borderWidth: 3,
-        borderColor: 'red',
+        borderColor: 'blue',
         flex: 4,
-        alignSelf: 'stretch'
+        alignSelf: 'stretch',
+        // position: 'absolute',
+        // top: 0,
+        // right: 0,
+        // bottom: 0,
+        // left: 0,
+        ...StyleSheet.absoluteFillObject
     },
     textThreeStyle: {
         borderWidth: 3,
         borderColor: 'red',
         flex: 2,
-        alignSelf: 'center'
+        // alignSelf: 'center'
     }
 });
 
